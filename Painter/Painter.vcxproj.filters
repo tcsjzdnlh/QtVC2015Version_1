@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{67af5552-7a02-4dc0-bdc1-66f254603252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{7de96ce7-0cae-4820-825c-7aef9deec1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{f1d93aeb-3ad7-47a6-94d2-8d23134024b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Testor">
+      <UniqueIdentifier>{fe528c31-07a9-47dc-bd79-b77fad11197c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\PainterPath">
+      <UniqueIdentifier>{0d9d49a0-8615-419f-94ef-23a2f1883c91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts\PainterPath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts\Testor</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Parts\PainterPath</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

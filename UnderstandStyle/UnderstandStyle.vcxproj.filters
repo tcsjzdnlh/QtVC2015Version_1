@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{c5967658-fd34-4e1f-8cf3-b23dfeb7bf81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{e46b9473-b8e1-45a3-a44f-61c7da227805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{d8c725d3-fcc0-48e9-ab54-c2c0daa78e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\MainWnd">
+      <UniqueIdentifier>{d21ee2f2-6bef-4a23-8979-74d67f3561a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\HugeEnumToString">
+      <UniqueIdentifier>{9cd53e96-7499-4475-a19c-8a311d886d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Testor">
+      <UniqueIdentifier>{c0a7b587-3de4-483a-ac57-24cfadfd99f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\StyleSlider">
+      <UniqueIdentifier>{3c4dcc4f-57d0-4511-bac9-cf9e08b360d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\ArthurStyle">
+      <UniqueIdentifier>{b77f4810-7c15-4422-a4e5-219a77719c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\StyleSlider\WinVistaStyle">
+      <UniqueIdentifier>{a4ea7385-7532-4815-a5b1-50f455e790d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\StyleSlider\WinVistaStyle\CommonStyle">
+      <UniqueIdentifier>{b993706f-5b0f-4615-b41c-eed1e5c1349d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="HugeEnumToString.cpp">
+      <Filter>Parts\HugeEnumToString</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Parts\MainWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleSlider.cpp">
+      <Filter>Parts\StyleSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleSliderUser.cpp">
+      <Filter>Parts\StyleSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="arthurstyle.cpp">
+      <Filter>Parts\ArthurStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="WinVistaStyle.cpp">
+      <Filter>Parts\StyleSlider\WinVistaStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qwindowsstyle.cpp">
+      <Filter>Parts\StyleSlider\WinVistaStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qcommonstyle.cpp">
+      <Filter>Parts\StyleSlider\WinVistaStyle\CommonStyle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HugeEnumToString.h">
+      <Filter>Parts\HugeEnumToString</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Parts\MainWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts\Testor</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleSlider.h">
+      <Filter>Parts\StyleSlider</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleSliderUser.h">
+      <Filter>Parts\StyleSlider</Filter>
+    </ClInclude>
+    <ClInclude Include="arthurstyle.h">
+      <Filter>Parts\ArthurStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="WinVistaStyle.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qwindowsstyle_p.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qwindowsstyle_p_p.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qcommonstyle.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle\CommonStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qcommonstyle_p.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle\CommonStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\styles\qcommonstylepixmaps_p.h">
+      <Filter>Parts\StyleSlider\WinVistaStyle\CommonStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleStructures.h">
+      <Filter>Parts\StyleSlider</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
