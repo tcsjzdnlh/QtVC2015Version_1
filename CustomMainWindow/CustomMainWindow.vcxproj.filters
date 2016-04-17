@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{a1128877-a664-46c0-a248-36dc5c9e87b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{d219d4ce-804d-4f40-8dec-116a697dda1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Testor">
+      <UniqueIdentifier>{f8e269a7-92b5-431f-863c-9ecbc87232bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{e746f32a-278f-41a8-b104-7da7d0759c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\XfsMainWindow">
+      <UniqueIdentifier>{29cf7549-88ae-405f-b3b5-190cd07a1fe3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="XfsMainWindow.cpp">
+      <Filter>Parts\XfsMainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="XfsTitleBar.cpp">
+      <Filter>Parts\XfsMainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="NetExample\example.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XfsMainWindow.h">
+      <Filter>Parts\XfsMainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts\Testor</Filter>
+    </ClInclude>
+    <ClInclude Include="XfsTitleBar.h">
+      <Filter>Parts\XfsMainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="NetExample\example.h">
+      <Filter>CodePath</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
