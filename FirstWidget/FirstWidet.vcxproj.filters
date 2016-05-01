@@ -4,27 +4,54 @@
     <Filter Include="CodePath">
       <UniqueIdentifier>{270712c0-6a00-4a1d-a985-198aa4f39ffc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Test">
-      <UniqueIdentifier>{6757574a-e8b7-44b5-8e57-94089c61721d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Modules">
       <UniqueIdentifier>{a62beab1-7666-4395-bdd8-dd98b0fecbec}</UniqueIdentifier>
     </Filter>
     <Filter Include="Parts">
       <UniqueIdentifier>{bd778f57-7b6f-4009-a5df-085b186e45c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Parts\Test">
+      <UniqueIdentifier>{6757574a-e8b7-44b5-8e57-94089c61721d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Logger">
+      <UniqueIdentifier>{fd77d6b8-72e9-496c-a299-b8ef376d5f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\WindowAttribControlPanel">
+      <UniqueIdentifier>{97a7548e-6937-4969-b559-ec6728e277f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\BeWatchedWidget">
+      <UniqueIdentifier>{b211f027-7592-4c75-91c4-40c9938b36a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Testor.h">
-      <Filter>Parts</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Testor.cpp">
-      <Filter>Test</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>CodePath</Filter>
     </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="XfsLogger.cpp">
+      <Filter>Parts\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="WACP.cpp">
+      <Filter>Parts\WindowAttribControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="BWW.cpp">
+      <Filter>Parts\BeWatchedWidget</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="XfsLogger.h">
+      <Filter>Parts\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="WACP.h">
+      <Filter>Parts\WindowAttribControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="BWW.h">
+      <Filter>Parts\BeWatchedWidget</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

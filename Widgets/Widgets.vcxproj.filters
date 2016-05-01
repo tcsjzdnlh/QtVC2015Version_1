@@ -1,2 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{1b6ca905-80c5-449d-a53b-c3ac4c520cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{0ff39c6e-9935-4888-bdf1-2a6b3d04cc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{af5a468a-97bd-4815-a707-277215e6a468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\Testor">
+      <UniqueIdentifier>{a7011351-a1d0-48a9-a35a-0cdbe1eab638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\qwidget">
+      <UniqueIdentifier>{60d09e4a-4fad-4a7a-a939-839bdcafe8ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testor.h">
+      <Filter>Parts\Testor</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\kernel\qwidget.h">
+      <Filter>Parts\qwidget</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Qt5.6\Src\qtbase\src\widgets\kernel\qwidget_p.h">
+      <Filter>Parts\qwidget</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Testor.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Qt5.6\Src\qtbase\src\widgets\kernel\qwidget.cpp">
+      <Filter>Parts\qwidget</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

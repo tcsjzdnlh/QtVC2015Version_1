@@ -68,7 +68,7 @@
       <AdditionalIncludeDirectories>.;F:\Qt5.6\Src\qtbase\include;F:\Qt5.6\BuildDir\qtbase\include;F:\Qt5.6\Src\qtbase\include\QtWidgets;F:\Qt5.6\BuildDir\qtbase\include\QtWidgets;F:\Qt5.6\Src\qtbase\include\QtGui;F:\Qt5.6\BuildDir\qtbase\include\QtGui;F:\Qt5.6\Src\qtbase\include\QtANGLE;F:\Qt5.6\Src\qtbase\include\QtCore;F:\Qt5.6\BuildDir\qtbase\include\QtCore;debug;F:\Qt5.6\Src\qtbase\mkspecs\win32-msvc2015;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
       <AssemblerListingLocation>debug\</AssemblerListingLocation>
-      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformation>true</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4577;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -105,6 +105,9 @@
     <PreBuildEvent>
       <Command>moc -o moc_MainWnd.cpp MainWnd.h</Command>
     </PreBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
