@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomMainWindow", "CustomM
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Widgets", "Widgets\Widgets.vcxproj", "{FC0207EC-CF97-3753-991F-6D1892EE1316}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtCoreModule", "QtCoreModule\QtCoreModule.vcxproj", "{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,14 @@ Global
 		{FC0207EC-CF97-3753-991F-6D1892EE1316}.Release|x64.ActiveCfg = Release|Win32
 		{FC0207EC-CF97-3753-991F-6D1892EE1316}.Release|x86.ActiveCfg = Release|Win32
 		{FC0207EC-CF97-3753-991F-6D1892EE1316}.Release|x86.Build.0 = Release|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Debug|x64.ActiveCfg = Debug|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Debug|x86.ActiveCfg = Debug|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Debug|x86.Build.0 = Debug|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Release|x64.ActiveCfg = Release|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Release|x86.ActiveCfg = Release|Win32
+		{A75EC817-1630-3DAF-B368-F8DAA8F8FF34}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
