@@ -1,0 +1,112 @@
+{ eWA_Disabled, Qt::WidgetAttribute::WA_Disabled },
+{ eWA_UnderMouse, Qt::WidgetAttribute::WA_UnderMouse },
+{ eWA_MouseTracking, Qt::WidgetAttribute::WA_MouseTracking },
+{ eWA_ContentsPropagated, Qt::WidgetAttribute::WA_ContentsPropagated }, // ## deprecated
+{ eWA_OpaquePaintEvent, Qt::WidgetAttribute::WA_OpaquePaintEvent },
+{ eWA_NoBackground, Qt::WidgetAttribute::WA_NoBackground }, // ## deprecated
+{ eWA_StaticContents, Qt::WidgetAttribute::WA_StaticContents },
+{ eWA_LaidOut, Qt::WidgetAttribute::WA_LaidOut },
+{ eWA_PaintOnScreen, Qt::WidgetAttribute::WA_PaintOnScreen },
+{ eWA_NoSystemBackground, Qt::WidgetAttribute::WA_NoSystemBackground },
+{ eWA_UpdatesDisabled, Qt::WidgetAttribute::WA_UpdatesDisabled },
+{ eWA_Mapped, Qt::WidgetAttribute::WA_Mapped },
+{ eWA_MacNoClickThrough, Qt::WidgetAttribute::WA_MacNoClickThrough }, // Mac only
+{ eWA_InputMethodEnabled, Qt::WidgetAttribute::WA_InputMethodEnabled },
+{ eWA_WState_Visible, Qt::WidgetAttribute::WA_WState_Visible },
+{ eWA_WState_Hidden, Qt::WidgetAttribute::WA_WState_Hidden },
+{ eWA_ForceDisabled, Qt::WidgetAttribute::WA_ForceDisabled },
+{ eWA_KeyCompression, Qt::WidgetAttribute::WA_KeyCompression },
+{ eWA_PendingMoveEvent, Qt::WidgetAttribute::WA_PendingMoveEvent },
+{ eWA_PendingResizeEvent, Qt::WidgetAttribute::WA_PendingResizeEvent },
+{ eWA_SetPalette, Qt::WidgetAttribute::WA_SetPalette },
+{ eWA_SetFont, Qt::WidgetAttribute::WA_SetFont },
+{ eWA_SetCursor, Qt::WidgetAttribute::WA_SetCursor },
+{ eWA_NoChildEventsFromChildren, Qt::WidgetAttribute::WA_NoChildEventsFromChildren },
+{ eWA_WindowModified, Qt::WidgetAttribute::WA_WindowModified },
+{ eWA_Resized, Qt::WidgetAttribute::WA_Resized },
+{ eWA_Moved, Qt::WidgetAttribute::WA_Moved },
+{ eWA_PendingUpdate, Qt::WidgetAttribute::WA_PendingUpdate },
+{ eWA_InvalidSize,	Qt::WidgetAttribute::WA_InvalidSize },
+{ eWA_MacBrushedMetal, Qt::WidgetAttribute::WA_MacBrushedMetal }, // Mac only
+{ eWA_MacMetalStyle, Qt::WidgetAttribute::WA_MacMetalStyle }, // obsolete
+{ eWA_CustomWhatsThis, Qt::WidgetAttribute::WA_CustomWhatsThis },
+{ eWA_LayoutOnEntireRect, Qt::WidgetAttribute::WA_LayoutOnEntireRect },
+{ eWA_OutsideWSRange, Qt::WidgetAttribute::WA_OutsideWSRange },
+{ eWA_GrabbedShortcut, Qt::WidgetAttribute::WA_GrabbedShortcut },
+{ eWA_TransparentForMouseEvents, Qt::WidgetAttribute::WA_TransparentForMouseEvents },
+{ eWA_PaintUnclipped, Qt::WidgetAttribute::WA_PaintUnclipped },
+{ eWA_SetWindowIcon, Qt::WidgetAttribute::WA_SetWindowIcon },
+{ eWA_NoMouseReplay, Qt::WidgetAttribute::WA_NoMouseReplay },
+{ eWA_DeleteOnClose, Qt::WidgetAttribute::WA_DeleteOnClose },
+{ eWA_RightToLeft, Qt::WidgetAttribute::WA_RightToLeft },
+{ eWA_SetLayoutDirection, Qt::WidgetAttribute::WA_SetLayoutDirection },
+{ eWA_NoChildEventsForParent, Qt::WidgetAttribute::WA_NoChildEventsForParent },
+{ eWA_ForceUpdatesDisabled, Qt::WidgetAttribute::WA_ForceUpdatesDisabled },
+{ eWA_WState_Created, Qt::WidgetAttribute::WA_WState_Created },
+{ eWA_WState_CompressKeys, Qt::WidgetAttribute::WA_WState_CompressKeys },
+{ eWA_WState_InPaintEvent, Qt::WidgetAttribute::WA_WState_InPaintEvent },
+{ eWA_WState_Reparented, Qt::WidgetAttribute::WA_WState_Reparented },
+{ eWA_WState_ConfigPending, Qt::WidgetAttribute::WA_WState_ConfigPending },
+{ eWA_WState_Polished, Qt::WidgetAttribute::WA_WState_Polished },
+{ eWA_WState_DND, Qt::WidgetAttribute::WA_WState_DND }, // ## deprecated
+{ eWA_WState_OwnSizePolicy, Qt::WidgetAttribute::WA_WState_OwnSizePolicy },
+{ eWA_WState_ExplicitShowHide, Qt::WidgetAttribute::WA_WState_ExplicitShowHide },
+{ eWA_ShowModal, Qt::WidgetAttribute::WA_ShowModal } }, // ## deprecated
+{ eWA_MouseNoMask, Qt::WidgetAttribute::WA_MouseNoMask },
+{ eWA_GroupLeader, Qt::WidgetAttribute::WA_GroupLeader },// ## deprecated
+{ eWA_NoMousePropagation, Qt::WidgetAttribute::WA_NoMousePropagation }, //might go away.
+{ eWA_Hover, Qt::WidgetAttribute::WA_Hover },
+{ eWA_InputMethodTransparent, Qt::WidgetAttribute::WA_InputMethodTransparent }, // Don't reset IM when user clicks on this (for virtual keyboards on embedded)
+{ eWA_QuitOnClose, Qt::WidgetAttribute::WA_QuitOnClose },
+{ eWA_KeyboardFocusChange, Qt::WidgetAttribute::WA_KeyboardFocusChange },
+{ eWA_AcceptDrops, Qt::WidgetAttribute::WA_AcceptDrops },
+{ eWA_DropSiteRegistered, Qt::WidgetAttribute::WA_DropSiteRegistered }, // internal
+{ eWA_ForceAcceptDrops, Qt::WidgetAttribute::WA_ForceAcceptDrops },// ## deprecated
+{ eWA_WindowPropagation, Qt::WidgetAttribute::WA_WindowPropagation },
+{ eWA_NoX11EventCompression, Qt::WidgetAttribute::WA_NoX11EventCompression },
+{ eWA_TintedBackground, Qt::WidgetAttribute::WA_TintedBackground },
+{ eWA_X11OpenGLOverlay, Qt::WidgetAttribute::WA_X11OpenGLOverlay },
+{ eWA_AlwaysShowToolTips, Qt::WidgetAttribute::WA_AlwaysShowToolTips },
+{ eWA_MacOpaqueSizeGrip, Qt::WidgetAttribute::WA_MacOpaqueSizeGrip },
+{ eWA_SetStyle, Qt::WidgetAttribute::WA_SetStyle },
+{ eWA_SetLocale, Qt::WidgetAttribute::WA_SetLocale },
+{ eWA_MacShowFocusRect, Qt::WidgetAttribute::WA_MacShowFocusRect },
+{ eWA_MacNormalSize, Qt::WidgetAttribute::WA_MacNormalSize },  // Mac only
+{ eWA_MacSmallSize, Qt::WidgetAttribute::WA_MacSmallSize },   // Mac only
+{ eWA_MacMiniSize, Qt::WidgetAttribute::WA_MacMiniSize },    // Mac only
+{ eWA_LayoutUsesWidgetRect, Qt::WidgetAttribute::WA_LayoutUsesWidgetRect },
+{ eWA_StyledBackground, Qt::WidgetAttribute::WA_StyledBackground }, // internal
+{ eWA_MSWindowsUseDirect3D, Qt::WidgetAttribute::WA_MSWindowsUseDirect3D }, // Win only
+{ eWA_CanHostQMdiSubWindowTitleBar, Qt::WidgetAttribute::WA_CanHostQMdiSubWindowTitleBar }, // Internal
+{ eWA_MacAlwaysShowToolWindow, Qt::WidgetAttribute::WA_MacAlwaysShowToolWindow }, // Mac only
+{ eWA_StyleSheet, Qt::WidgetAttribute::WA_StyleSheet }, // internal
+{ eWA_ShowWithoutActivating, Qt::WidgetAttribute::WA_ShowWithoutActivating },
+{ eWA_X11BypassTransientForHint, Qt::WidgetAttribute::WA_X11BypassTransientForHint },
+{ eWA_NativeWindow, Qt::WidgetAttribute::WA_NativeWindow },
+{ eWA_DontCreateNativeAncestors, Qt::WidgetAttribute::WA_DontCreateNativeAncestors },
+{ eWA_MacVariableSize, Qt::WidgetAttribute::WA_MacVariableSize },    // Mac only
+{ eWA_DontShowOnScreen, Qt::WidgetAttribute::WA_DontShowOnScreen },
+{ eWA_X11NetWmWindowTypeDesktop, Qt::WidgetAttribute::WA_X11NetWmWindowTypeDesktop },// window types from http://standards.freedesktop.org/wm-spec/
+{ eWA_X11NetWmWindowTypeDock , Qt::WidgetAttribute::WA_X11NetWmWindowTypeDock },
+{ eWA_X11NetWmWindowTypeToolBar , Qt::WidgetAttribute::WA_X11NetWmWindowTypeToolBar },
+{ eWA_X11NetWmWindowTypeMenu , Qt::WidgetAttribute::WA_X11NetWmWindowTypeMenu },
+{ eWA_X11NetWmWindowTypeUtility , Qt::WidgetAttribute::WA_X11NetWmWindowTypeUtility },
+{ eWA_X11NetWmWindowTypeSplash , Qt::WidgetAttribute::WA_X11NetWmWindowTypeSplash },
+{ eWA_X11NetWmWindowTypeDialog , Qt::WidgetAttribute::WA_X11NetWmWindowTypeDialog },
+{ eWA_X11NetWmWindowTypeDropDownMenu, Qt::WidgetAttribute::WA_X11NetWmWindowTypeDropDownMenu },
+{ eWA_X11NetWmWindowTypePopupMenu, Qt::WidgetAttribute::WA_X11NetWmWindowTypePopupMenu },
+{ eWA_X11NetWmWindowTypeToolTip, Qt::WidgetAttribute::WA_X11NetWmWindowTypeToolTip },
+{ eWA_X11NetWmWindowTypeNotification, Qt::WidgetAttribute::WA_X11NetWmWindowTypeNotification },
+{ eWA_X11NetWmWindowTypeCombo, Qt::WidgetAttribute::WA_X11NetWmWindowTypeCombo },
+{ eWA_X11NetWmWindowTypeDND, Qt::WidgetAttribute::WA_X11NetWmWindowTypeDND },
+{ eWA_MacFrameworkScaled, Qt::WidgetAttribute::WA_MacFrameworkScaled },
+{ eWA_SetWindowModality, Qt::WidgetAttribute::WA_SetWindowModality },
+{ eWA_WState_WindowOpacitySet, Qt::WidgetAttribute::WA_WState_WindowOpacitySet }, // internal
+{ eWA_TranslucentBackground, Qt::WidgetAttribute::WA_TranslucentBackground },
+{ eWA_AcceptTouchEvents, Qt::WidgetAttribute::WA_AcceptTouchEvents },
+{ eWA_WState_AcceptedTouchBeginEvent, Qt::WidgetAttribute::WA_WState_AcceptedTouchBeginEvent },
+{ eWA_TouchPadAcceptSingleTouchEvents, Qt::WidgetAttribute::WA_TouchPadAcceptSingleTouchEvents },
+{ eWA_X11DoNotAcceptFocus , Qt::WidgetAttribute::WA_X11DoNotAcceptFocus },
+{ eWA_MacNoShadow , Qt::WidgetAttribute::WA_MacNoShadow },
+{ eWA_AlwaysStackOnTop , Qt::WidgetAttribute::WA_AlwaysStackOnTop },
+{ eWA_AttributeCount , Qt::WidgetAttribute::WA_AttributeCount } // Add new attributes before this line

@@ -22,6 +22,12 @@
     <Filter Include="Parts\BeWatchedWidget">
       <UniqueIdentifier>{b211f027-7592-4c75-91c4-40c9938b36a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Parts\WindowAttribControlPanel\WidgetData">
+      <UniqueIdentifier>{c3fd1566-5782-4515-9725-cbf135cd5a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\WidgetMasterSwitch">
+      <UniqueIdentifier>{25401390-c29f-4bb5-8539-e824294fcf2d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +45,12 @@
     <ClCompile Include="BWW.cpp">
       <Filter>Parts\BeWatchedWidget</Filter>
     </ClCompile>
+    <ClCompile Include="WidgetAPI.cpp">
+      <Filter>Parts\WindowAttribControlPanel\WidgetData</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetMasterSwitch.cpp">
+      <Filter>Parts\WidgetMasterSwitch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Testor.h">
@@ -53,5 +65,13 @@
     <ClInclude Include="BWW.h">
       <Filter>Parts\BeWatchedWidget</Filter>
     </ClInclude>
+    <ClInclude Include="WidgetMasterSwitch.h">
+      <Filter>Parts\WidgetMasterSwitch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WADatas.data">
+      <Filter>Parts\WindowAttribControlPanel\WidgetData</Filter>
+    </None>
   </ItemGroup>
 </Project>

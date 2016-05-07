@@ -2,7 +2,7 @@
 #define _xfs_Book_h_
 
 #include <QtCore/QObject>
-
+#include <QtCore/QRegularExpression>
 
 namespace test_qt_core
 {
@@ -23,6 +23,7 @@ namespace test_qt_core
 		void test();
 
 	}
+
 }
 
 

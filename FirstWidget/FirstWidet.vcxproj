@@ -14,6 +14,7 @@
     <ClInclude Include="BWW.h" />
     <ClInclude Include="Testor.h" />
     <ClInclude Include="WACP.h" />
+    <ClInclude Include="WidgetMasterSwitch.h" />
     <ClInclude Include="XfsLogger.h" />
   </ItemGroup>
   <ItemGroup>
@@ -21,7 +22,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Testor.cpp" />
     <ClCompile Include="WACP.cpp" />
+    <ClCompile Include="WidgetAPI.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="WidgetMasterSwitch.cpp" />
     <ClCompile Include="XfsLogger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WADatas.data" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{786EE5B5-89F7-3750-B2D0-6D27DBACB3F4}</ProjectGuid>
@@ -112,7 +120,8 @@
     <PreBuildEvent>
       <Command>moc -o moc_XfsLogger.cpp XfsLogger.h
 moc -o moc_BWW.cpp BWW.h
-moc -o moc_WACP.cpp WACP.h</Command>
+moc -o moc_WACP.cpp WACP.h
+moc -o moc_WidgetMasterSwitch.cpp WidgetMasterSwitch.h</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
